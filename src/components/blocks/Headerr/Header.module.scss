@@ -2,7 +2,7 @@
   font-family: 'Open Sans', sans-serif;
   height: 100px;
   display: flex;
-  position: sticky;
+  position: relative;
   z-index: 999;
   width: 100%;
 }
@@ -50,13 +50,27 @@
   display: flex;
   color: black;
   transition: 0.3s;
-  &:hover{
-    color: #A79ECD;
-  }
+  position: relative;
+
   @media screen and (max-width: 1200px) {
     font-size: 16px;
     padding: 0 4px;
   }
+}
+
+.headerItem::before {
+  content: '';
+  position: absolute;
+  top: 37px; 
+  left: 5px;
+  width: 40%;
+  height: 2px;
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+
+.headerItem:hover::before {
+  background-color: #A79ECD;
 }
 
 .burgerItem{

@@ -5,7 +5,7 @@ import Container from "../../UI/Container";
 const Awards = () => {
     return (
         
-        <div className={styles.body} id={"aboutUS"}>
+        <div className={styles.body} id={"awards"}>
             <Container>
                 <div className={styles.bodyWrapper}>
                 <div className={styles.wrapper}>

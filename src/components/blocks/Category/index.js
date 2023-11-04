@@ -6,7 +6,7 @@ import Container from "../../UI/Container";
 const Category = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     return (
-        <div className={styles.wrapper} id={"rules"}>
+        <div className={styles.wrapper} id={"category"}>
             <Container>
             <div className={styles.inner}>
                 <div className={styles.title}>

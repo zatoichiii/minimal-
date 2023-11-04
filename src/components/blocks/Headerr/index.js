@@ -4,6 +4,7 @@ import {Dropdown} from "antd";
 import Container from "../../UI/Container";
 import {UnorderedListOutlined} from "@ant-design/icons";
 
+
 const items = [
     {
         key: '1',
@@ -14,7 +15,7 @@ const items = [
     {
         key: '2',
         label: (
-            <a href={"#history"} className={styles.burgerItem}>SUBMIT</a>
+            <a href={"https://filmfreeway.com/MosaicSintraFilmFestival"} className={styles.burgerItem}>SUBMIT</a>
         ),
     },
     {
@@ -61,11 +62,11 @@ const Index = () => {
             <Container>
             <div className={styles.inner}>
                 <div className={styles.headerItems}>
-                    <a href={"#aboutUS"} className={styles.headerItem}>ABOUT US</a>
-                    <a href={"#history"} className={styles.headerItem}>SUBMIT</a>
-                    <a href={"#values"} className={styles.headerItem}>CATEGORIES</a>
-                    <a href={"#operates"} className={styles.headerItem}>AWARDS AND PRIZES</a>
-                    <a href={"#awards"} className={styles.headerItem}>RULES AND CONDITIONS</a>
+                    <a href={"#about"} className={styles.headerItem}>ABOUT US</a>
+                    <a href={"https://filmfreeway.com/MosaicSintraFilmFestival"} className={styles.headerItem}>SUBMIT</a>
+                    <a href={"#category"} className={styles.headerItem}>CATEGORIES</a>
+                    <a href={"#awards"} className={styles.headerItem}>AWARDS AND PRIZES</a>
+                    <a href={"#rules"} className={styles.headerItem}>RULES AND CONDITIONS</a>
                 </div>
                 <div className={styles.burger}>
                     <Dropdown
