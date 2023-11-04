@@ -1,28 +1,27 @@
 .wrapper{
     background: url("../../../../public/images/Aiming/back.png") no-repeat;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Krona One', sans-serif;
     background-size: cover;
     height: 450px;
     display: flex;
 }
 
 .inner{
-    margin: auto;
     justify-content: space-between;
     padding: 100px 0;
+    width: 60%;
 }
 
 .title{
     text-transform: capitalize;
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
-    text-align: center;
 }
 
 
 .button{
-    margin: 40px auto 0 auto;
+    margin: 20px 0px 0px 0px ;
     width: 300px;
     height: 100px;
     transition: all 0.5s ease-out;
@@ -32,9 +31,9 @@
         border-radius: 16px;
     }
     &:hover{
-        width: 350px;
-        height: 120px;
-        margin: 39px auto 0 auto;
+        width: 310px;
+        height: 105px;
+        margin: 20px 0px 0px 0px ;
     }
     @media screen and (max-width: 400px) {
         width: 80%;

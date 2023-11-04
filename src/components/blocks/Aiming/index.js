@@ -9,11 +9,11 @@ const Aiming = () => {
             <Container>
             <div className={styles.inner}>
                 <div className={styles.title}>
-                    We are aiming to watch your project!
+                WE ARE AIMING TO WATCH YOUR PROJECT!
                 </div>
                 <div className={styles.button}>
                     <a href={'https://filmfreeway.com/Levelupsydney'}>
-                        <img src={"/images/FFButtons/red1.png"}/>
+                        <img src={"/images/FFButtons/blue.png"}/>
                     </a>
                 </div>
             </div>
