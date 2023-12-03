@@ -5,6 +5,7 @@ import About from "./components/blocks/About";
 import Logo from "./components/blocks/Logo";
 import Event from "./components/blocks/Event";
 import Categories from "./components/blocks/Categories";
+import Rules from "./components/blocks/Rules";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Categories />
       <Event />
+        <Rules />
       <Aiming />
       <Footer />
     </div>

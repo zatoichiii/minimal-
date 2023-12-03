@@ -19,12 +19,14 @@
   justify-content: center;
   width: 100%;
   gap: 10px;
+  margin: auto;
 }
 
 
 .headerItems {
-  display: inline-flex;
-  gap: 80px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
   align-items: center;
 
   box-sizing: border-box;
