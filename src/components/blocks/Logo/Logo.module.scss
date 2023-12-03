@@ -1,0 +1,17 @@
+.logo_middle {
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    padding: 50px;
+
+    @media screen and (max-width: 1200px) {
+        width: 100%;
+    }
+}
+
+.logo {
+    @media screen and (max-width: 992px) {
+        width: 600px;
+        height: auto;
+    }
+}

@@ -1,27 +1,22 @@
-
-import Aboutt from "./components/blocks/Aboutt";
 import Aiming from "./components/blocks/Aiming";
-import Rules from "./components/blocks/Rules";
 import Footer from "./components/blocks/Footer";
-import Headerr from "./components/blocks/Headerr";
-import Program from "./components/blocks/Program";
-import Features from "./components/blocks/Features";
-import Category from "./components/blocks/Category";
-import Awards from "./components/blocks/Awards";
+import Header from "./components/blocks/Header";
+import About from "./components/blocks/About";
+import Logo from "./components/blocks/Logo";
+import Event from "./components/blocks/Event";
+import Categories from "./components/blocks/Categories";
 
 function App() {
   return (
-      <div className='App'>
-          <Headerr />
-          <Aboutt/>
-          <Program />
-          <Features/>
-          <Category/>
-          <Awards/>
-          <Rules/>
-          <Aiming/>
-          <Footer/>
-      </div>
+    <div className='App'>
+      <Logo />
+      <Header />
+      <About />
+      <Categories />
+      <Event />
+      <Aiming />
+      <Footer />
+    </div>
 
   );
 }

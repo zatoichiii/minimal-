@@ -1,8 +1,9 @@
-.wrapper{
+.wrapper {
     display: flex;
-    width: 1200px;
+    width: 1400px;
     margin: 0 auto;
-    @media screen and (max-width: 1200px) {
+
+    @media screen and (max-width: 1418px) {
         width: 100%;
         padding: 0 30px;
     }

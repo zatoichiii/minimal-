@@ -6,35 +6,35 @@ const Footer = () => {
     return (
         <div className={styles.body}>
             <Container>
-        <div className={styles.wrapper}>
-            <div className={styles.text}>
-                <div className={styles.rows}>
-                    <div className={styles.logo}>
-                        <img src="/images/Foot/logo.png" alt='' />
-                    </div>
-                    <div className={styles.row}>
-                        <a href={'#aboutUS'}>ABOUT US</a>
-                        <a href={'#history'}>CATEGORIES</a>
-                    </div>
-                    <div className={styles.row}>
-                        <a href={'#operates'}>RULES AND CONDITIONS</a>
-                        <a href={'#awards'}>AWARDS</a>
-                    </div>
-                    <div className={styles.row}>
-                    <div className={styles.button}>
-                    <a href={'https://filmfreeway.com/Levelupsydney'}>
-                        <img src={"/images/FFButtons/blue.png"}/>
-                    </a>
-                </div>
-                    </div>
-                </div>
+                <div className={styles.wrapper}>
+                    <div className={styles.text}>
+                        <div className={styles.rows}>
+                            <div className={styles.logo}>
+                                <img  src="/images/Foot/logo.png" alt='' />
+                            </div>
+                            <div className={styles.row}>
+                                <a href={'#About'}>About us</a>
+                                <a href={'#Categories'}>Categories</a>
+                            </div>
+                            <div className={styles.row}>
+                                <a href={'#Rules'}>Rules</a>
+                                <a href={'#Event'}>Event</a>
+                            </div>
+                            <div className={styles.row}>
+                                <div className={styles.button}>
+                                    <a href={'https://filmfreeway.com/minimalshortfilmfestival'}>
+                                        <img src={"/images/FFButtons/black.png"} />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
 
-            <div className={styles.line}></div>
-            <div className={styles.copyright}>
-            Copyright © 2024 Mosaic Film Festival
-            </div>
-            </div>
-        </div>
+                        <div className={styles.line}></div>
+                        <div className={styles.copyright}>
+                            Copyright © 2024 Minimal Short Film Festival
+                        </div>
+                    </div>
+                </div>
             </Container>
         </div>
     );

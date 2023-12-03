@@ -7,16 +7,14 @@ const Aiming = () => {
 
         <div className={styles.wrapper}>
             <Container>
-            <div className={styles.inner}>
                 <div className={styles.title}>
-                WE ARE AIMING TO WATCH YOUR PROJECT!
+                    We Are Aiming To Wath Your Project!
                 </div>
                 <div className={styles.button}>
-                    <a href={'https://filmfreeway.com/Levelupsydney'}>
-                        <img src={"/images/FFButtons/blue.png"}/>
+                    <a href={'https://filmfreeway.com/minimalshortfilmfestival'}>
+                        <img src={"/images/FFButtons/black.png"} />
                     </a>
                 </div>
-            </div>
             </Container>
         </div>
     );
